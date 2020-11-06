@@ -50,7 +50,6 @@ namespace SkunkworksDebugger
             this.btnExit = new System.Windows.Forms.Button();
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
-            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,7 +76,6 @@ namespace SkunkworksDebugger
             // 
             // checkBox1
             // 
-            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox1.AutoSize = true;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -107,7 +105,7 @@ namespace SkunkworksDebugger
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(612, 13);
+            this.label2.Location = new System.Drawing.Point(622, 13);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 17);
             this.label2.TabIndex = 6;
@@ -128,9 +126,8 @@ namespace SkunkworksDebugger
             // 
             // lblUptime
             // 
-            this.lblUptime.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lblUptime.AutoSize = true;
-            this.lblUptime.Location = new System.Drawing.Point(683, 454);
+            this.lblUptime.Location = new System.Drawing.Point(462, 454);
             this.lblUptime.Name = "lblUptime";
             this.lblUptime.Size = new System.Drawing.Size(52, 17);
             this.lblUptime.TabIndex = 8;
@@ -138,9 +135,8 @@ namespace SkunkworksDebugger
             // 
             // lblPlayers
             // 
-            this.lblPlayers.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lblPlayers.AutoSize = true;
-            this.lblPlayers.Location = new System.Drawing.Point(683, 474);
+            this.lblPlayers.Location = new System.Drawing.Point(462, 474);
             this.lblPlayers.Name = "lblPlayers";
             this.lblPlayers.Size = new System.Drawing.Size(55, 17);
             this.lblPlayers.TabIndex = 9;
@@ -148,9 +144,8 @@ namespace SkunkworksDebugger
             // 
             // lblTPS
             // 
-            this.lblTPS.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lblTPS.AutoSize = true;
-            this.lblTPS.Location = new System.Drawing.Point(683, 491);
+            this.lblTPS.Location = new System.Drawing.Point(462, 491);
             this.lblTPS.Name = "lblTPS";
             this.lblTPS.Size = new System.Drawing.Size(35, 17);
             this.lblTPS.TabIndex = 10;
@@ -163,14 +158,13 @@ namespace SkunkworksDebugger
             // 
             // listBox1
             // 
-            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.listBox1.BackColor = System.Drawing.Color.Black;
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.ForeColor = System.Drawing.Color.Chartreuse;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
             this.listBox1.ItemHeight = 18;
-            this.listBox1.Location = new System.Drawing.Point(615, 33);
+            this.listBox1.Location = new System.Drawing.Point(625, 32);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(610, 418);
             this.listBox1.TabIndex = 11;
@@ -201,8 +195,7 @@ namespace SkunkworksDebugger
             // 
             // btnExport
             // 
-            this.btnExport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExport.Location = new System.Drawing.Point(1179, 454);
+            this.btnExport.Location = new System.Drawing.Point(625, 456);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(184, 51);
             this.btnExport.TabIndex = 14;
@@ -227,8 +220,7 @@ namespace SkunkworksDebugger
             // 
             // btnExit
             // 
-            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.Location = new System.Drawing.Point(1369, 454);
+            this.btnExit.Location = new System.Drawing.Point(1058, 453);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(170, 51);
             this.btnExit.TabIndex = 16;
@@ -243,7 +235,7 @@ namespace SkunkworksDebugger
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(608, 457);
+            this.button1.Location = new System.Drawing.Point(882, 453);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 48);
             this.button1.TabIndex = 17;
@@ -251,21 +243,11 @@ namespace SkunkworksDebugger
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // cartesianChart1
-            // 
-            this.cartesianChart1.Location = new System.Drawing.Point(1247, 33);
-            this.cartesianChart1.Name = "cartesianChart1";
-            this.cartesianChart1.Size = new System.Drawing.Size(421, 415);
-            this.cartesianChart1.TabIndex = 18;
-            this.cartesianChart1.Text = "cartesianChart1";
-            this.cartesianChart1.ChildChanged += new System.EventHandler<System.Windows.Forms.Integration.ChildChangedEventArgs>(this.cartesianChart1_ChildChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1680, 534);
-            this.Controls.Add(this.cartesianChart1);
+            this.ClientSize = new System.Drawing.Size(1240, 534);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnEnableWeapons);
@@ -322,7 +304,6 @@ namespace SkunkworksDebugger
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Button button1;
-        private LiveCharts.WinForms.CartesianChart cartesianChart1;
     }
 }
 
