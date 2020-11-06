@@ -1,0 +1,16 @@
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.csprojAssemblyReference.cache
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.Form1.resources
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.csproj.GenerateResource.cache
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\SkunkworksDebugger.exe
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\SkunkworksDebugger.pdb
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.Properties.Resources.resources
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.csproj.CoreCompileInputs.cache
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.csproj.CopyComplete
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.exe
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.pdb
