@@ -170,12 +170,17 @@ namespace SkunkworksDebugger
                             Replace(11, strInput.ToString());
 
                         }
-                        else if (strInput.Contains("All are welcome!") == true)
+                        else if (strInput.Contains("Anti-Lag | More+") == true)
                         {
 
-                            Log("crap title found. Extracting...");
+                            Log("title found. Extracting...");
                             Replace(2, strInput.ToString());
 
+                        }
+                        else if (strInput.Contains("No Workshop") == true)
+                        {
+                            Log("title found. Extracting...");
+                            Replace(2, strInput.ToString());
                         }
                         else if (strInput.Contains("tiles    : ") == true)
                         {
