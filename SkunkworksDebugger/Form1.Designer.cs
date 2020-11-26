@@ -50,7 +50,13 @@ namespace SkunkworksDebugger
             this.btnExit = new System.Windows.Forms.Button();
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.steamIDHistoryRetrieverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.closeAltF4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -61,17 +67,17 @@ namespace SkunkworksDebugger
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 508);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 540);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(173, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(140, 22);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(151, 20);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
             // checkBox1
@@ -79,9 +85,9 @@ namespace SkunkworksDebugger
             this.checkBox1.AutoSize = true;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(300, 457);
+            this.checkBox1.Location = new System.Drawing.Point(300, 468);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(152, 21);
+            this.checkBox1.Size = new System.Drawing.Size(143, 20);
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Run StreamReader";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -95,9 +101,9 @@ namespace SkunkworksDebugger
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 13);
+            this.label1.Location = new System.Drawing.Point(12, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 17);
+            this.label1.Size = new System.Drawing.Size(89, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "Server Output";
             // 
@@ -107,7 +113,7 @@ namespace SkunkworksDebugger
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(622, 13);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 17);
+            this.label2.Size = new System.Drawing.Size(72, 16);
             this.label2.TabIndex = 6;
             this.label2.Tag = "";
             this.label2.Text = "Messages";
@@ -118,36 +124,36 @@ namespace SkunkworksDebugger
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Chartreuse;
             this.textBox1.FormattingEnabled = true;
-            this.textBox1.ItemHeight = 18;
-            this.textBox1.Location = new System.Drawing.Point(0, 33);
+            this.textBox1.ItemHeight = 15;
+            this.textBox1.Location = new System.Drawing.Point(0, 44);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(602, 418);
+            this.textBox1.Size = new System.Drawing.Size(602, 409);
             this.textBox1.TabIndex = 7;
             // 
             // lblUptime
             // 
             this.lblUptime.AutoSize = true;
-            this.lblUptime.Location = new System.Drawing.Point(462, 454);
+            this.lblUptime.Location = new System.Drawing.Point(462, 465);
             this.lblUptime.Name = "lblUptime";
-            this.lblUptime.Size = new System.Drawing.Size(52, 17);
+            this.lblUptime.Size = new System.Drawing.Size(51, 16);
             this.lblUptime.TabIndex = 8;
             this.lblUptime.Text = "Uptime";
             // 
             // lblPlayers
             // 
             this.lblPlayers.AutoSize = true;
-            this.lblPlayers.Location = new System.Drawing.Point(462, 474);
+            this.lblPlayers.Location = new System.Drawing.Point(462, 485);
             this.lblPlayers.Name = "lblPlayers";
-            this.lblPlayers.Size = new System.Drawing.Size(55, 17);
+            this.lblPlayers.Size = new System.Drawing.Size(54, 16);
             this.lblPlayers.TabIndex = 9;
             this.lblPlayers.Text = "Players";
             // 
             // lblTPS
             // 
             this.lblTPS.AutoSize = true;
-            this.lblTPS.Location = new System.Drawing.Point(462, 491);
+            this.lblTPS.Location = new System.Drawing.Point(462, 502);
             this.lblTPS.Name = "lblTPS";
-            this.lblTPS.Size = new System.Drawing.Size(35, 17);
+            this.lblTPS.Size = new System.Drawing.Size(35, 16);
             this.lblTPS.TabIndex = 10;
             this.lblTPS.Text = "TPS";
             // 
@@ -163,17 +169,17 @@ namespace SkunkworksDebugger
             this.listBox1.ForeColor = System.Drawing.Color.Chartreuse;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
-            this.listBox1.ItemHeight = 18;
-            this.listBox1.Location = new System.Drawing.Point(625, 32);
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(625, 43);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(610, 418);
+            this.listBox1.Size = new System.Drawing.Size(610, 409);
             this.listBox1.TabIndex = 11;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // btnOpenFile
             // 
             this.btnOpenFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnOpenFile.Location = new System.Drawing.Point(12, 457);
+            this.btnOpenFile.Location = new System.Drawing.Point(12, 496);
             this.btnOpenFile.Name = "btnOpenFile";
             this.btnOpenFile.Size = new System.Drawing.Size(88, 48);
             this.btnOpenFile.TabIndex = 12;
@@ -185,7 +191,7 @@ namespace SkunkworksDebugger
             // 
             this.btnGo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnGo.Enabled = false;
-            this.btnGo.Location = new System.Drawing.Point(106, 457);
+            this.btnGo.Location = new System.Drawing.Point(106, 496);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(80, 48);
             this.btnGo.TabIndex = 13;
@@ -195,7 +201,7 @@ namespace SkunkworksDebugger
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(625, 456);
+            this.btnExport.Location = new System.Drawing.Point(625, 467);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(184, 51);
             this.btnExport.TabIndex = 14;
@@ -210,7 +216,7 @@ namespace SkunkworksDebugger
             // btnEnableWeapons
             // 
             this.btnEnableWeapons.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnEnableWeapons.Location = new System.Drawing.Point(193, 458);
+            this.btnEnableWeapons.Location = new System.Drawing.Point(193, 497);
             this.btnEnableWeapons.Name = "btnEnableWeapons";
             this.btnEnableWeapons.Size = new System.Drawing.Size(91, 47);
             this.btnEnableWeapons.TabIndex = 15;
@@ -220,7 +226,7 @@ namespace SkunkworksDebugger
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(1058, 453);
+            this.btnExit.Location = new System.Drawing.Point(1058, 464);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(170, 51);
             this.btnExit.TabIndex = 16;
@@ -235,7 +241,7 @@ namespace SkunkworksDebugger
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(882, 453);
+            this.button1.Location = new System.Drawing.Point(882, 464);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 48);
             this.button1.TabIndex = 17;
@@ -243,11 +249,52 @@ namespace SkunkworksDebugger
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.windowToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1240, 24);
+            this.menuStrip1.TabIndex = 18;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.closeAltF4ToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // windowToolStripMenuItem
+            // 
+            this.windowToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.steamIDHistoryRetrieverToolStripMenuItem});
+            this.windowToolStripMenuItem.Name = "windowToolStripMenuItem";
+            this.windowToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.windowToolStripMenuItem.Text = "Window";
+            // 
+            // steamIDHistoryRetrieverToolStripMenuItem
+            // 
+            this.steamIDHistoryRetrieverToolStripMenuItem.Name = "steamIDHistoryRetrieverToolStripMenuItem";
+            this.steamIDHistoryRetrieverToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.steamIDHistoryRetrieverToolStripMenuItem.Text = "Steam ID History Retriever";
+            this.steamIDHistoryRetrieverToolStripMenuItem.Click += new System.EventHandler(this.steamIDHistoryRetrieverToolStripMenuItem_Click);
+            // 
+            // closeAltF4ToolStripMenuItem
+            // 
+            this.closeAltF4ToolStripMenuItem.Name = "closeAltF4ToolStripMenuItem";
+            this.closeAltF4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.closeAltF4ToolStripMenuItem.Text = "Close (Alt+F4)";
+            this.closeAltF4ToolStripMenuItem.Click += new System.EventHandler(this.closeAltF4ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1240, 534);
+            this.ClientSize = new System.Drawing.Size(1240, 562);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnEnableWeapons);
@@ -263,7 +310,9 @@ namespace SkunkworksDebugger
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -273,6 +322,8 @@ namespace SkunkworksDebugger
             this.Shown += new System.EventHandler(this.Form1_Shown);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,6 +355,11 @@ namespace SkunkworksDebugger
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windowToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem steamIDHistoryRetrieverToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem closeAltF4ToolStripMenuItem;
     }
 }
 

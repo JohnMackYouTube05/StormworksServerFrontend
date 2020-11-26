@@ -434,6 +434,19 @@ namespace SkunkworksDebugger
 
         }
 
+        private void closeAltF4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close(); //Close program.
+            
+
+        }
+
+        private void steamIDHistoryRetrieverToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SteamIDHistoryRetriever sidhr = new SteamIDHistoryRetriever();
+            sidhr.Show(); // Show window
+        }
+
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Control == true && e.KeyCode == Keys.C)

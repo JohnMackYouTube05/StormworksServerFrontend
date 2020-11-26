@@ -14,3 +14,9 @@ C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\Skunkwork
 C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.csproj.CopyComplete
 C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.exe
 C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.pdb
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\obj\Debug\SkunkworksDebugger.SteamIDHistoryRetriever.resources
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.dll
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.pdb
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\LiveCharts.xml
+C:\Users\liljm\Source\Repos\JohnMackYouTube05\StormworksServerFrontend\SkunkworksDebugger\bin\Debug\Newtonsoft.Json.xml
