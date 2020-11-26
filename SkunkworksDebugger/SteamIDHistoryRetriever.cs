@@ -41,9 +41,11 @@ namespace SkunkworksDebugger
                 listNames.Items.Add(DateTimeOffset.FromUnixTimeSeconds(Convert.ToInt64(nh.date)) + " " + nh.name);
             }
             pbAvatar.ImageLocation = myDeserializedClass.profile.avatar;
+            pbAvatar.SizeMode = PictureBoxSizeMode.StretchImage;
             pbAvatar.Refresh();
             lblCurrentName.Text = ("Current Name: " + myDeserializedClass.profile.playername);
             lblVacBans.Text = ("VAC Bans: " + myDeserializedClass.profile_status.vac);
+            
             
 
         }
